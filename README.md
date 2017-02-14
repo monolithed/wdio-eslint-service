@@ -2,6 +2,8 @@
 
 > A WDIO service for ESLint 
 
+![wdio-eslint-service](./preview.png)
+
 ### Installation
 
 ```
