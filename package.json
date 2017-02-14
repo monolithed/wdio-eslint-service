@@ -1,0 +1,27 @@
+{
+	"name": "wdio-eslint-service",
+	"version": "0.0.1",
+	"description": "WDIO ESLint Service",
+	"author": "Alexander Abashkin <monolithed@gmail.com>",
+	"license": "MIT",
+
+	"main": "./launcher.js",
+
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:monolithed/wdio-eslint-service.git"
+	},
+
+	"engines": {
+		"node": ">=6.0",
+		"npm": ">=3.8"
+	},
+
+	"dependencies": {
+		"deepmerge": "0.2.10",
+		"eslint": "^3.0.1",
+		"eslint-friendly-formatter": "^2.0.5",
+		"tir": "^0.0.2",
+		"glob": "^7.0.5"
+	}
+}
