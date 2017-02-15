@@ -1,9 +1,10 @@
 # wdio-eslint-service
 
-> A WDIO service for ESLint 
+> WDIO service to use ESLint
 
 ![wdio-eslint-service](./preview.png)
 
+This service makes a lot of sense when your tests and code are placed independently.
 
 ### Installation
 
@@ -34,11 +35,13 @@ npm install wdio-eslint-service --save
 
 * **cache** — Only check changed files. In additional, we see your diff (for Git repositories).
 * **files** — This option allows you to specify which files will be used.
+* **fix** — True indicates that fixes should be included with the output report, and that errors and warnings should not be listed if they can be fixed. Your files on disk will be changed!
 
 ##### Standard options
 
 * **extensions** — Specify JavaScript / Typescript file extensions. Default: `.js`.
 * **format** — Use a specific output format. Default: `node_modules/eslint-friendly-formatter`
+*  ...
 
 In additional you can use all [options and rules](http://eslint.org/docs/developer-guide/nodejs-api) are available in ESLint. 
 
