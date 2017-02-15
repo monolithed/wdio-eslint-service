@@ -188,7 +188,7 @@ wdio.conf.local.js
 }
 ```
 
-So, you can have several configuration files for different environments and preferences.< br />
+So, you can have several configuration files for different environments and preferences.<br />
 That's why `wdio-eslint-service` is so actual.
 
 
