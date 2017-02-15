@@ -1,7 +1,8 @@
 {
 	"name": "wdio-eslint-service",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "WDIO ESLint Service",
+	"keywords": ["webdriver", "webdriverio", "eslint", "tslint", "typescript"],
 	"author": "Alexander Abashkin <monolithed@gmail.com>",
 	"license": "MIT",
 
